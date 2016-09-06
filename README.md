@@ -38,7 +38,7 @@ the algorithm embody different strategies.
 
 * Search algorithms are judged on the basis of <b>completeness</b>, <b>optimality</b>, <b>time complexity</b>,
 and <b>space complexity</b>. Complexity depends on <b>b</b>, the <b>branching factor</b> in the state space,
-and <b>d</b>, the <b>depth of the shallowest solution<b>.
+and <b>d</b>, the <b>depth of the shallowest solution</b>.
 
 Terceira 1 (Vinicius)
 ---------------------
