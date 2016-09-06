@@ -41,7 +41,7 @@ Terceira 1 (Vinicius)
 ---------------------
 
 * Breadth-first search expands the shallowest node in the search tree first. It is complete,
-optimal for unit-cost operators, and has time and space complexity of O(b''). The space
+optimal for unit-cost operators, and has time and space complexity of O(b<sup>d</sup>). The space
 complexity makes it impractical in most cases.
 
 * Uniform-cost search expands the least-cost leaf node first. It is complete, and unlike
@@ -49,7 +49,7 @@ breadth-first search is optimal even when operators have differing costs. Its sp
 complexity are the same as for breadth-first search.
 
 * Depth-first search expands the deepest node in the search tree first. It is neither complete
-nor optimal, and has time complexity of 0(b m ) and space complexity of O(bm), where m is
+nor optimal, and has time complexity of 0(b<sup>m</sup>) and space complexity of O(bm), where m is
 the maximum depth. In search trees of large or infinite depth, the time complexity makes
 this impractical.
 
@@ -61,7 +61,7 @@ happens to be equal to the depth of shallowest goal state, then time and space c
 are minimized.
 
 * Iterative deepening search calls depth-limited search with increasing limits until a goal is
-found. It is complete and optimal, and has time complexity of O(b d ) and space complexity
+found. It is complete and optimal, and has time complexity of O(b<sup>d</sup>) and space complexity
 of O(bd).
 
 * Bidirectional search can enormously reduce time complexity, but is not always applicable.
