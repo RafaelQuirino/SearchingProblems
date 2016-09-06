@@ -37,35 +37,35 @@ the algorithm embody different strategies.
 and space complexity. Complexity depends on b, the branching factor in the state space,
 and d, the depth of the shallowest solution.
 
-Terceira
----------
+Terceira 1 (Vinicius)
+---------------------
 
-(Vinicius)
+* Breadth-first search expands the shallowest node in the search tree first. It is complete,
+optimal for unit-cost operators, and has time and space complexity of O(b''). The space
+complexity makes it impractical in most cases.
 
-	* Breadth-first search expands the shallowest node in the search tree first. It is complete,
-	optimal for unit-cost operators, and has time and space complexity of O(b''). The space
-	complexity makes it impractical in most cases.
-	
-	* Uniform-cost search expands the least-cost leaf node first. It is complete, and unlike
-	breadth-first search is optimal even when operators have differing costs. Its space and time
-	complexity are the same as for breadth-first search.
-	
-	* Depth-first search expands the deepest node in the search tree first. It is neither complete
-	nor optimal, and has time complexity of 0(b m ) and space complexity of O(bm), where m is
-	the maximum depth. In search trees of large or infinite depth, the time complexity makes
-	this impractical.
+* Uniform-cost search expands the least-cost leaf node first. It is complete, and unlike
+breadth-first search is optimal even when operators have differing costs. Its space and time
+complexity are the same as for breadth-first search.
 
-(Marcos)
+* Depth-first search expands the deepest node in the search tree first. It is neither complete
+nor optimal, and has time complexity of 0(b m ) and space complexity of O(bm), where m is
+the maximum depth. In search trees of large or infinite depth, the time complexity makes
+this impractical.
 
-	* Depth-limited search places a limit on how deep a depth-first search can go. If the limit
-	happens to be equal to the depth of shallowest goal state, then time and space complexity
-	are minimized.
-	
-	* Iterative deepening search calls depth-limited search with increasing limits until a goal is
-	found. It is complete and optimal, and has time complexity of O(b d ) and space complexity
-	of O(bd).
-	
-	* Bidirectional search can enormously reduce time complexity, but is not always applicable.
-	Its memory requirements may be impractical.
+Terceira 2 (Marcos)
+-------------------
+
+* Depth-limited search places a limit on how deep a depth-first search can go. If the limit
+happens to be equal to the depth of shallowest goal state, then time and space complexity
+are minimized.
+
+* Iterative deepening search calls depth-limited search with increasing limits until a goal is
+found. It is complete and optimal, and has time complexity of O(b d ) and space complexity
+of O(bd).
+
+* Bidirectional search can enormously reduce time complexity, but is not always applicable.
+Its memory requirements may be impractical.
+
 
 
