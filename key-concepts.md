@@ -29,4 +29,5 @@ are states and the links between nodes are actions.
 * A <b>path cost</b> function that assigns a numeric cost to each path. The problem-solving
 agent chooses a cost function that reflects its own performance measure. We can assume that 
 the cost of a path can be described as the sum of the costs of the individual actions along the path. 
-The <b>step cost</b> of taking action a in state s to reach state s' is denoted by c(s, a, s').
+The <b>step cost</b> of taking action a in state s to reach state s' is denoted by 
+c(s, a, s').
