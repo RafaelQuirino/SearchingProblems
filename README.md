@@ -5,7 +5,7 @@ Guia para produção do trabalho
 -------------------------------
 
 O trabalho ficou dividido em quatro partes. Uma parte introdutória de apresentação
-dos conceitos iniciais. Uma parte de apresentação do método geral de solução por busca,
+dos conceitos principais. Uma parte de apresentação do método geral de solução por busca,
 e uma parte com implementações específicas de busca. A terceira parte, por conter 6 implementações,
 foi dividia em duas de 3 implementações. Além dessas três partes, eu (Rafael) ficarei responsável
 por elaborar um exemplo (implementação) de um problema que pode ser resolvido usando busca,
