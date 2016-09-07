@@ -4,13 +4,12 @@ Trabalho de inteligência artificial sobre resolução de problemas por busca.
 Guia para produção do trabalho
 -------------------------------
 
-O trabalho ficou dividido em três partes. Uma parte introdutória de apresentação
+O trabalho ficou dividido em quatro partes. Uma parte introdutória de apresentação
 dos conceitos iniciais. Uma parte de apresentação do método geral de solução por busca,
 e uma parte com implementações específicas de busca. A terceira parte, por conter 6 implementações,
 foi dividia em duas de 3 implementações. Além dessas três partes, eu (Rafael) ficarei responsável
-por elaborar uma conclusão e uma(s) implementação(ões) demo para o final da apresentação.
-(Talvez forneça implementações para cada método de busca, de forma que possamos demonstrá-las
-durante a apresentação da terceira parte).
+por elaborar um exemplo (implementação) de um problema que pode ser resolvido usando busca,
+provavelmente o problema 8-puzzle, além de elaborar uma conclusão.
 
 Cada um responsável pela sua parte deve fornecer material para os slides (texto e imagens),
 e produzir um resumo da parte correspondente do livro.
