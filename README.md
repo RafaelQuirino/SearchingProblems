@@ -69,5 +69,12 @@ of O(bd).
 * <b>Bidirectional search</b> can enormously reduce time complexity, but is not always applicable.
 Its memory requirements may be impractical.
 
+Quarta (Rafael)
+---------------
+
+* Demonstração de um programa que soluciona o problema 8-puzzle por meio de busca.
+
+* Elaboração de uma conclusão.
+
 
 
