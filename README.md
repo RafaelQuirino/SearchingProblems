@@ -73,6 +73,9 @@ Quarta (Rafael)
 ---------------
 
 * Demonstração de um programa que soluciona o problema 8-puzzle por meio de busca.
+  - Formalização matemática do algoritmo de busca
+  - Pseudo código
+  - Execução
 
 * Elaboração de uma conclusão.
 
