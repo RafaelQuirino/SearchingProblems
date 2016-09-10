@@ -29,7 +29,7 @@ and a <b>path cost function</b>. The environment of the problem is represented b
 * In real life most problems are ill-defined; but with some analysis, many problems can fit
 into the state space model.
 
-Segunda (Rafael)
+Segunda (Rafael) // Talvez fundir com primeira parte (Douglas)
 ----------------
 
 * A single <b>general search</b> algorithm can be used to solve any problem; specific variants of
