@@ -2,11 +2,22 @@ body {
     background-color: linen;
 }
 
+.gif {
+	/*-webkit-user-select: none; 
+	cursor: zoom-in;*/
+	position: relative;
+	top: 70;
+	left: 830;
+}
+
 .panel {
 	background-color: white;
 	border:2px solid #1f3a93;	
 	width:301px;
 	height:301px;
+	position: absolute;
+	top:10;
+	left:10;
 }
 
 .tile {
@@ -40,49 +51,55 @@ body {
 	left: 350;
 }
 
+#show {
+	position: absolute;
+	top: 10;
+	left: 830;
+}
+
 #pos_1 {
-	top: 11px;
-	left: 11px;
+	top: 1px;
+	left: 1px;
 }
 
 #pos_2 {
-	top: 11px;
-	left: 111px;
+	top: 1px;
+	left: 101px;
 }
 
 #pos_3 {
-	top: 11px;
-	left: 211px;
+	top: 1px;
+	left: 201px;
 }
 
 #pos_4 {
-	top: 111px;
-	left: 11px;
+	top: 101px;
+	left: 1px;
 }
 
 #pos_5 {
-	top: 111px;
-	left: 111px;
+	top: 101px;
+	left: 101px;
 }
 
 #pos_6 {
-	top: 111px;
-	left: 211px;
+	top: 101px;
+	left: 201px;
 }
 
 #pos_7 {
-	top: 211px;
-	left: 11px;
+	top: 201px;
+	left: 1px;
 }
 
 #pos_8 {
-	top: 211px;
-	left: 111px;
+	top: 201px;
+	left: 101px;
 }
 
 #pos_9 {
-	top: 211px;
-	left: 211px;
+	top: 201px;
+	left: 201px;
 }
 
 

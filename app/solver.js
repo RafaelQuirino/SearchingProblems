@@ -1,4 +1,5 @@
 require('data_structures');
+require('puzzle_gui');
 
 var EMPTY = 0;
 
@@ -191,7 +192,7 @@ function Solver(state) {
 
 	// expand state space (tree) until find solution node
 	// (or reach LIMIT), in a BFS fashion; 
-	this.search = function() {
+	this.search = function(panel) {
 		// limiting the number of nodes to explored
 		var LIMIT = 100000;
 
@@ -209,6 +210,8 @@ function Solver(state) {
 			var curr_node = queue.dequeue();
 			this.searchedNodes.push(curr_node);
 			counter += 1;
+
+			//panel.update(curr_node.value);
 
 			// if current node is solution, stop searching
 			if (curr_node.value.isSolution()) {
@@ -252,8 +255,8 @@ function Solver(state) {
 
 	// create the sequence of actions by constructing
 	// the path from the root to the solution node
-	this.solve = function() {
-		var solution_node = this.search();
+	this.solve = function(panel) {
+		var solution_node = this.search(panel);
 		var curr_node = solution_node;
 		
 		// constructing path

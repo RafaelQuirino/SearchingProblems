@@ -118,4 +118,15 @@ function SearchPanel() {
 
 		return null;
 	}
+
+	this.update = function(state) {
+
+		for (var i = 0; i < this.tiles.length; i++)
+			this.domObject.removeChild(this.tiles[i].domObject);
+
+		this.tiles = [];
+		
+		this.createTiles(state);
+		this.addToPage();
+	}
 }
