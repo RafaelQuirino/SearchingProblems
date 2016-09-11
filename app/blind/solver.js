@@ -194,7 +194,7 @@ function Solver(state) {
 	// (or reach LIMIT), in a BFS fashion; 
 	this.search = function(panel) {
 		// limiting the number of nodes to explored
-		var LIMIT = 100000;
+		var LIMIT = 500000;
 
 		//creating the tree which represents the state space
 		this.tree.setRoot(new Node(this.initialState));

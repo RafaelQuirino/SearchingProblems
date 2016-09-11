@@ -127,8 +127,9 @@ ready(function() {
 		var state_1 = new State([[2,8,3],[1,6,4],[7,0,5]], 3);
 		var state_2 = new State([[2,8,3],[7,1,4],[6,0,5]], 3);
 		var state_3 = new State([[3,1,5],[0,2,4],[6,8,7]], 3);
+		var state_4 = new State([[3,6,0],[5,1,4],[7,8,2]], 3);
 
-		var init_state = state_3;
+		var init_state = state_4;
 
 		// creating panel with tiles according to init_state
 		var panel = new Panel();
